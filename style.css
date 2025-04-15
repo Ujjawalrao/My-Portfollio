@@ -1,0 +1,63 @@
+html,body{
+    scroll-behavior: smooth;
+}
+main::-webkit-scrollbar{
+    width: 0 !important;
+}
+main{
+    backdrop-filter: blur(10px);
+}
+
+::selection{
+    background: #8e8d8d48;
+}
+
+/* body{
+    animation: firstTime .5s ease-out;    
+    background-image: url(https://media1.giphy.com/media/6uu3ZNNgRBt61eZ1Zh/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 100%;
+} */
+
+.magic{
+    animation: firstTime .5s ease-out !important;    
+    background-image: url(https://media1.giphy.com/media/6uu3ZNNgRBt61eZ1Zh/giphy.gif)  !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* backdrop-filter: blur(50px); */
+    background-position: center !important;
+    height: 100% !important;
+    color: black !important;
+}
+
+#maincnt{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+navbar ul{
+    animation: opnav .9s ease-in ;
+}
+@keyframes opnav {
+    0%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@media (width < 375px) {
+    
+    navbar ul{
+        width: 90%;
+    }
+
+    navbar ul li i{
+        font-size: 1.2rem;
+    }
+}
