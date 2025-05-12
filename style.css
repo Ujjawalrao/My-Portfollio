@@ -1,35 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html,body{
     scroll-behavior: smooth;
+    background: #111111;
 }
-main::-webkit-scrollbar{
+body::-webkit-scrollbar{
     width: 0 !important;
 }
+
+.dark{
+    background: #101111;
+    background-color: #101111;
+    color: white;
+}
+
 main{
     backdrop-filter: blur(10px);
 }
 
 ::selection{
-    background: #8e8d8d48;
-}
-
-/* body{
-    animation: firstTime .5s ease-out;    
-    background-image: url(https://media1.giphy.com/media/6uu3ZNNgRBt61eZ1Zh/giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    height: 100%;
-} */
-
-.magic{
-    animation: firstTime .5s ease-out !important;    
-    background-image: url(https://media1.giphy.com/media/6uu3ZNNgRBt61eZ1Zh/giphy.gif)  !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    /* backdrop-filter: blur(50px); */
-    background-position: center !important;
-    height: 100% !important;
-    color: black !important;
+    background: #4b4c4c48;
+    color: rgb(213, 151, 51);
 }
 
 #maincnt{
@@ -41,13 +35,18 @@ main{
 
 navbar ul{
     animation: opnav .9s ease-in ;
+    transition: all ease-in 1.1s;
 }
 @keyframes opnav {
     0%{
         transform: translateY(150px);
+        filter: blur(40px);
+        opacity: 0;
     }
     100%{
         transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
     }
 }
 

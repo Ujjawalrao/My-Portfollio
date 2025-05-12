@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Ujjawal | Frontend Developer</title>
+  <meta name="description"
+    content="I'm Ujjawal, a frontend developer who builds beautiful, responsive, and interactive websites using HTML, CSS, JavaScript, React, Tailwind CSS, Framer Motion, and GSAP.">
+  <meta name="author" content="Ujjawal Yadav">
+  <meta name="language" content="en">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (for Facebook, LinkedIn) -->
+  <meta property="og:title" content="Ujjawal | Frontend Developer">
+  <meta property="og:description" content="Transforming concepts into beautiful, responsive web experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ujjawalraosahab.netlify.app">
+  <meta property="og:image" content="./assets/Og.png">
+
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -18,104 +33,135 @@
       }
     }
   </script>
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Ujjawal Yadav">
-  <meta name="description" content="Frontend developer. Transforming Concepts into Marvellous Reality.">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/Favicon-Icon.png">
+
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://imgs.search.brave.com/16J7Zl1SW29gg6bmAb5B3xsGQGGBTQ1HrfShrpylotI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0UvZWNvLWxl/dHRlci11LWxvZ28t/MjI5ODdGRTY3My1z/ZWVrbG9nby5jb20u/cG5n">
-  <title>Ujjawal | Frontend Developer</title>
 </head>
-<body  class="text-black bg-white" id="body">
+
+<body class="" id="body">
   <!-- navbar -->
   <header>
     <navbar class='relative flex items-center justify-center z-10 '>
       <ul
-        class='flex items-center justify-center lg:hover:w-[38%]  xl:hover:w-[25%] transition-all ease-out 1s gap-3 md:gap-4 bg-black-300/75  backdrop-blur-lg border-2  border-gray-300 shadow-lg p-2 xl:p-4 fixed bottom-8 md:w-[50%] lg:w-[35%] xl:w-[23%] rounded-full text-2xl '>
-        <a href="#Home">
-          <li class='hover:cursor-pointer'><i
-              class="fa-solid fa-house hover:scale-125 transition duration-150 ease-out hover:ease-in"></i></li>
-        </a>
+        class="flex items-center justify-center lg:hover:w-[38%] xl:hover:w-[25%] transition-all ease-out 1s gap-3 md:gap-4 bg-black-300/75 duration-300 backdrop-blur-lg border-2 border-gray-300 shadow-lg p-2 xl:p-4 fixed bottom-8 md:w-[50%] lg:w-[35%] xl:w-[23%] rounded-full text-2xl">
+
+        <li>
+          <a href="#body" aria-label="Home" class="hover:cursor-pointer">
+            <i class="fa-solid fa-house hover:scale-125 transition duration-150 ease-out hover:ease-in"></i>
+          </a>
+        </li>
+
         <span class="text-stone-500 font-mono">|</span>
-        <a href="https://github.com/Ujjawalrao">
-          <li
-            class='hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in'>
+
+        <li>
+          <a href="https://github.com/Ujjawalrao" aria-label="GitHub"
+            class="hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in">
             <i class="fa-brands fa-github"></i>
-          </li>
-        </a>
-        <a href="https://x.com/ujjawalyadavv">
-          <li
-            class='hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in'>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://x.com/ujjawalyadavv" aria-label="Twitter"
+            class="hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in">
             <i class="fa-brands fa-square-x-twitter"></i>
-          </li>
-        </a>
-        <a href="https://www.linkedin.com/in/ujjawal-yadav-42951a273/">
-          <li
-            class='hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in'>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/ujjawal-yadav-42951a273/" aria-label="LinkedIn"
+            class="hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in">
             <i class="fa-brands fa-linkedin"></i>
-          </li>
-        </a>
-        <a href="mailto:aatishyadav31@gmail.com">
-          <li
-            class='hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in'>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:aatishyadav31@gmail.com" aria-label="Email"
+            class="hover:cursor-pointer hover:scale-125 outline-none hover:border-none hover:rounded-full hover:px-1 transition-all duration-150 ease-out hover:ease-in">
             <i class="fa-solid fa-envelope"></i>
-          </li>
-        </a>
+          </a>
+        </li>
+
         <span class="text-stone-500 font-mono">|</span>
-        <li class='hover:cursor-pointer hover:scale-125 transition duration-150 ease-out hover:ease-in' id="mode"><i
-            class="fa-solid fa-cloud-sun"></i></li>
+
+        <li>
+          <button id="mode" aria-label="Toggle Theme"
+            class="hover:cursor-pointer hover:scale-125 transition duration-150 ease-out hover:ease-in">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </button>
+        </li>
       </ul>
+
     </navbar>
   </header>
-  <main onclick="applyTheme()" class="flex justify-center items-center xl:pt-20 xl:pb-10 p-8">
-    <div class="max-w-[600px]" id="maincnt">
+  <!-- main -->
+  <main class="flex justify-center items-center xl:pt-20 xl:pb-10 p-8" id="profile">
+    <div class="max-w-[700px]" id="maincnt">
       <!-- hero  -->
-      <hero class='flex item justify-center' id="Home">
-        <div class='flex item justify-center w-full max-w-2xl  gap-2'>
+      <hero id="Home" class="">
+       <div class='flex item justify-between' >
+        <div class='flex item justify-between w-full gap-2'>
           <div class=' flex justify-center flex-col gap-2 w-full'>
-            <h1 class='font-bold text-3xl xl:text-5xl inline-block '>Hi, I'm Ujjawal</h1>
-            <h2 class='max-w-[600px] font-sans tracking-wide  '>A Frontend Developer. Transforming Concepts into
+            <h1  class='font-bold text-2xl xl:text-5xl inline-block '>Hi, I'm Ujjawal</h1>
+            <h2 id="tagline" class='max-w-[600px] font-sans tracking-wide  '>A Frontend Developer. <br> Transforming Concepts into
               Marvellous Reality. </h2>
           </div>
-          <div class=''>
+          <div id="profile-pic" class='flex flex-col gap-1 justify-center items-center'>
             <img
               src="https://avatars.githubusercontent.com/u/147393190?s=400&u=6b40067262275084e2c8217236f0840cf78ffd12&v=4"
-              alt="Ujjawal's profile image" class='w-[30vw] sm:w-[10vw] rounded-full' />
+              alt="Ujjawal's profile image" class='w-[30vw] sm:w-[10vw] rounded-full border-4 border-gray-400/50' />
+              <center><a class="text-[12px] sm:text-[16px] whitespace-nowrap hover:bg-gray-200/20 bg-blue-300/30 px-2 mt-1 rounded-full border border-gray-100 hover:tracking-wide duration-300 ease-in-out " aria-label="Resume download button" href="./assets/NewUjjawalYadav-Resume.pdf" download >Resume <i class="fa-solid fa-download"></i></a></center>
           </div>
         </div>
+       </div>
       </hero>
       <!-- about -->
       <section class="flex items-center justify-center w-full mt-4" id="About">
-        <div class='max-w-[600px]'>
-          <!-- <h1 class="font-bold text-xl mb-2">About</h1>
-          <p class=" tracking-wide ">
-            I'm a passionate and dedicated frontend developer currently pursuing my 12th-grade education. I have a
-            strong foundation in web development, backed by the HARTRON Computer course (CCDL) certification.
-            I specialize in creating responsive, visually appealing, and user-friendly websites. My technical skills
-            include:
-            HTML, CSS, and Tailwind CSS for crafting elegant and responsive designs.
-            JavaScript for adding dynamic and interactive features.
-            React.js for building efficient and scalable web applications.
-            With a keen eye for detail and a commitment to continuous learning, I aim to build digital experiences that
-            are both functional and delightful.
-            When I'm not coding, I enjoy exploring new technologies and enhancing my skills to stay ahead in the
-            fast-evolving tech landscape.
+        <div class=''>
+          <section class="md:py-12 max-w-4xl mx-auto">
+            <h2 class="font-bold text-2xl my-2">About Me</h2>
 
-          </p> -->
-          <section class="py-10 max-w-3xl mx-auto">
-            <h1 class="font-bold text-xl mb-2">About</h1>
-            <p class="tracking-wide">
-              I'm Ujjawal, a frontend developer from Hisar, Haryana. I’ve completed my 12th and a 6-month CCDL computer course from HARTRON Skill Centre, Hisar.
-              <br />
-              I'm passionate about creating beautiful, responsive, and interactive websites using HTML, CSS, JavaScript, React, Tailwind CSS, Framer Motion, and GSAP. I love learning by building real projects and always aim to deliver clean, user-friendly designs.
-              <br />
-              I’m now looking for an opportunity to start my career in web development and contribute to meaningful projects.
+            <p class="leading-8">
+              <strong>Hi, I'm Ujjawal</strong> — a Frontend Developer passionate about turning ideas into beautiful,
+              responsive experiences.
+            </p>
+
+            <p class="text-lg leading-8 mt-2">
+              I'm based in <strong>Hisar, Haryana</strong>, and have completed my 12th along with a 6-month
+              <strong>C.C.D.L. computer course</strong> from HARTRON Skill Centre.
+              I specialize in building interactive, user-friendly websites using
+              <span class="font-medium text-blue-600">HTML</span>,
+              <span class="font-medium text-blue-600">CSS</span>,
+              <span class="font-medium text-blue-600">JavaScript</span>,
+              <span class="font-medium text-blue-600">React</span>,
+              <span class="font-medium text-blue-600">Tailwind CSS</span>,
+              <span class="font-medium text-blue-600">Framer Motion</span>, and
+              <span class="font-medium text-blue-600">GSAP</span>.
+            </p>
+
+            <p class="text-lg leading-8 mt-2">
+              I enjoy learning by creating real-world projects and take pride in writing clean, maintainable code. My
+              goal is to craft seamless digital experiences and constantly grow as a developer.
+            </p>
+
+            <p class="text-lg leading-8 mt-2">
+              I'm actively seeking an opportunity to kick-start my career in frontend development and contribute to
+              impactful, real-world projects.
             </p>
           </section>
-          
+
+
         </div>
       </section>
-      <!-- Ai created tech skill-->
-      <section class="bg-transparent py-10 px-6">
+      <!-- Tach skill-->
+      <section id="tech" class="bg-transparent py-10 px-6">
         <div class="max-w-7xl mx-auto text-center">
           <h2 class="text-xl font-bold mb-16">
             My Tech Stack
@@ -123,197 +169,231 @@
 
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-white">
             <!-- Skill Card -->
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-yellow-700 to-orange-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                  class="w-14 h-14 mb-4" />
+                  alt="html5-picture" class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">HTML5</p>
               </div>
             </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-blue-400 to-cyan-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3-picture"
                   class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">CSS3</p>
               </div>
             </div>
 
-            <div
-            class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
-            <div
-              class="absolute -inset-px bg-gradient-to-tr from-teal-400 to-blue-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+              <div
+                class="absolute -inset-px bg-gradient-to-tr from-teal-400 to-blue-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
+              </div>
+              <div class="relative z-10 flex flex-col items-center">
+                <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-9294852-7577995.png"
+                  alt="tailwind-picture" class="w-14 h-14 mb-4" />
+                <p class="text-sm font-semibold">Tailwind CSS</p>
+              </div>
             </div>
-            <div class="relative z-10 flex flex-col items-center">
-              <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-9294852-7577995.png"
-                class="w-14 h-14 mb-4" />
-              <p class="text-sm font-semibold">Tailwind CSS</p>
-            </div>
-          </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-yellow-400 to-orange-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="w-14 h-14 mb-4" />
+                  alt="javascript" class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">JavaScript</p>
               </div>
             </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-blue-400 to-purple-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react"
                   class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">React.js</p>
               </div>
             </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-blue-400 to-pink-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
                 <img src="https://attact.co/_next/image?url=%2Fframer-motion-logo.png&w=1080&q=75"
-                  class="w-14 h-14 mb-4" />
+                  alt="Fframer-motion-logo" class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">Framer Motion</p>
               </div>
             </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-green-400 to-lime-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
                 <img src="https://i.pinimg.com/originals/5b/71/b1/5b71b13d08c24d709b3313ea9a889277.png"
-                  class="w-14 h-14 mb-4" />
+                  alt="gsap-picture" class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">GSAP</p>
               </div>
             </div>
 
-            <div
-              class="relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
+            <div 
+              class="tech-box relative group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl overflow-hidden shadow-xl border border-gray-700 hover:scale-105 transition-transform">
               <div
                 class="absolute -inset-px bg-gradient-to-tr from-pink-400 to-fuchsia-500 opacity-0 group-hover:opacity-100 blur-md rounded-2xl transition duration-500">
               </div>
               <div class="relative z-10 flex flex-col items-center">
-                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712104.png" class="w-14 h-14 mb-4" />
+                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712104.png" alt="A.I-tool-picture"
+                  class="w-14 h-14 mb-4" />
                 <p class="text-sm font-semibold">AI Tools</p>
               </div>
             </div>
 
-            
+
 
           </div>
         </div>
       </section>
       <!-- project -->
-      <section class="mt-4 " id="Project">
-        <h2 class="font-bold text-xl text-center">Project</h2>
+      <section class="mt-4" id="Project">
+        <h2 id="Project-title" class="font-bold text-xl text-center">Project</h2>
         <div class="inner-cont my-4">
-          <!-- louis vuitton -->
-          <div class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
-            <div class="">
-              <img src="./assets/louis-vuitton.webp" alt="">
+
+          <!-- Louis Vuitton -->
+          <div id="Project-1" class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
+            <div>
+              <img src="./assets/louis-vuitton.png" alt="Louis Vuitton project landing page" width="600" height="400"
+                loading="lazy" class="w-full h-auto rounded-lg">
             </div>
             <div class="p-2">
-              <h2 class="uppercase font-bold">louis vuitton</h2>
-              <p class="text-gray-500">Designed a responsive and elegant landing page inspired by the Louis Vuitton website using HTML, Tailwind CSS, and JavaScript, Gsap. Features include a luxury-themed UI, interactive product sections, smooth animations, and mobile-friendly design.
+              <h2 class="uppercase font-bold">Louis Vuitton</h2>
+              <p class="text-gray-500">
+                Designed a responsive and elegant landing page inspired by the Louis Vuitton
+                website using HTML, Tailwind CSS, and JavaScript, Gsap. Features include a luxury-themed UI,
+                interactive product sections, smooth animations, and mobile-friendly design.
               </p>
               <div class="my-2">
-                <a href="https://louis-vuitton-webpage.vercel.app/">
-                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-solid fa-globe"></i> Website</span>
+                <a href="https://louis-vuitton-webpage.vercel.app/" aria-label="Visit Louis Vuitton project website">
+                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </span>
                 </a>
-                <a href="https://github.com/Ujjawalrao/Louis-Vuitton-webpage">
-                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-brands fa-github"></i> Source</span>
+                <a href="https://github.com/Ujjawalrao/Louis-Vuitton-webpage"
+                  aria-label="View Louis Vuitton source code on GitHub">
+                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-brands fa-github"></i> Source
+                  </span>
                 </a>
               </div>
             </div>
           </div>
+
           <!-- Chapter-2 -->
-          <div class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
-            <div class="">
-              <img src="./assets/Chapter-2.webp" alt="">
+          <div id="Project-2" class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
+            <div>
+              <img src="./assets/Chapter-2.png" alt="Chapter-2Dril fashion brand landing page" width="600" height="400"
+                loading="lazy" class="w-full h-auto rounded-lg">
             </div>
             <div class="p-2">
               <h2 class="uppercase font-bold">Chapter-2Dril</h2>
-              <p class="text-gray-500">Built a modern and responsive landing page for a fashion brand using React and Framer motion. Features a clean UI, product showcase, smooth animations, and mobile-first design inspired by high-end streetwear aesthetics.</p>
+              <p class="text-gray-500">
+                Built a modern and responsive landing page for a fashion brand using React and Framer Motion.
+                Features a clean UI, product showcase, smooth animations, and mobile-first design inspired by high-end
+                streetwear aesthetics.
+              </p>
               <div class="my-2">
-                <a href="">
-                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-solid fa-globe"></i> Website</span>
+                <a href="#" aria-label="Visit Chapter-2Dril website">
+                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </span>
                 </a>
-                <a href="">
-                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-brands fa-github"></i> Source</span>
+                <a href="https://github.com/Ujjawalrao/Chapter2dril" aria-label="View Chapter-2Dril source code on GitHub">
+                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-brands fa-github"></i> Source
+                  </span>
                 </a>
               </div>
             </div>
           </div>
+
           <!-- Mercedes -->
-          <div class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
-            <div class="">
-              <img src="./assets/Mercedes.webp" alt="">
+          <div id="Project-3" class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
+            <div>
+              <img src="./assets/mercedes.png" alt="Mercedes car brand landing page" width="600" height="400"
+                loading="lazy" class="w-full h-auto rounded-lg">
             </div>
             <div class="p-2">
               <h2 class="uppercase font-bold">Mercedes Car-Brand</h2>
-              <p class="text-gray-500">Developed a sleek and responsive landing page for a car brand using React and Framer Motion. The project features a modern user interface, smooth scroll-based animations, and a mobile-first layout for an optimal experience across all devices.</p>
+              <p class="text-gray-500">
+                Developed a sleek and responsive landing page for a car brand using React and Framer Motion.
+                The project features a modern user interface, smooth scroll-based animations, and a mobile-first layout.
+              </p>
               <div class="my-2">
-                <a href="">
-                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-solid fa-globe"></i> Website</span>
+                <a href="https://mercedes-ui-eight.vercel.app/" aria-label="Visit Mercedes project website">
+                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </span>
                 </a>
-                <a href="">
-                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-brands fa-github"></i> Source</span>
+                <a href="https://github.com/Ujjawalrao/Mercedes-UI" aria-label="View Mercedes source code on GitHub">
+                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-brands fa-github"></i> Source
+                  </span>
                 </a>
               </div>
             </div>
           </div>
-          <!-- Smilecare :) -->
-          <div class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
-            <div class="">
-              <img src="./assets/Smilecare.webp" alt="">
+
+          <!-- Smilecare -->
+          <div id="Project-4" class="vdo-container rounded-lg my-8 shadow-lg shadow-gray-700">
+            <div>
+              <img src="./assets/smilecare.png" alt="Smilecare dental clinic landing page" width="600" height="400"
+                loading="lazy" class="w-full h-auto rounded-lg">
             </div>
             <div class="p-2">
-              <h2 class="uppercase font-bold">Smilecare :) </h2>
-              <p class="text-gray-500">Created a clean and responsive dental clinic landing page using HTML, Tailwind CSS, and JavaScript. Features include a professional layout, services section, appointment CTA, and mobile-optimized design focused on user trust and clarity. </p>
+              <h2 class="uppercase font-bold">Smilecare :)</h2>
+              <p class="text-gray-500">
+                Created a clean and responsive dental clinic landing page using HTML, Tailwind CSS, and JavaScript.
+                Features include a professional layout, services section, appointment CTA, and mobile-optimized design.
+              </p>
               <div class="my-2">
-                <a href="https://dentistteeth-ui.vercel.app/">
-                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-solid fa-globe"></i> Website</span>
+                <a href="https://dentistteeth-ui.vercel.app/" aria-label="Visit Smilecare website">
+                  <span class="bg-blue-500 hover:bg-blue-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </span>
                 </a>
-                <a href="https://github.com/Ujjawalrao/Dentistteeth-ui">
-                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg"><i
-                      class="fa-brands fa-github"></i> Source</span>
+                <a href="https://github.com/Ujjawalrao/Dentistteeth-ui"
+                  aria-label="View Smilecare source code on GitHub">
+                  <span class="bg-zinc-700 font-bold text-white px-3 py-[3px] rounded-lg">
+                    <i class="fa-brands fa-github"></i> Source
+                  </span>
                 </a>
               </div>
             </div>
           </div>
+
         </div>
       </section>
-      <!-- ai soft skill -->
-      <section class="py-14 px-6">
+
+      <!-- soft skill -->
+      <section id="soft-skill-title" class="py-14">
         <div class="max-w-[600px] mx-auto">
-          <h2 class="text-3xl sm:text-4xl font-bold text-center mb-10">🌟 Soft Skills</h2>
+          <h2  class="text-3xl sm:text-4xl font-bold text-center mb-10">🌟 Soft Skills</h2>
 
           <div class="space-y-6">
 
@@ -380,16 +460,18 @@
       </section>
       <!-- contact -->
       <section class="pb-6 bg-fit" id="Contact">
-        <div class="max-w-[600px] justify-center flex items-center flex-col text-center">
+        <div class="justify-center flex items-center flex-col text-center">
           <h4 class="font-bold text-xl text-center mt-4 ">Contact</h4>
           <h1 class="text-3xl xl:text-5xl font-bold my-4 inline-block">Get in touch</h1>
           <p class="font-sans w-full lg:w-[450px] ">Want to chat? Just shoot me a dm <a
-              href="https://x.com/ujjawalyadavv" class="text-blue-500">with a direct question on twitter </a>and I'll
+              href="https://x.com/ujjawalyadavv" class="text-blue-500">with a direct question on twitter </a> or <a
+              href="mailto:aatishyadav31@gmail.com" class="text-blue-500">in e-mail</a> and I'll
             respond whenever I can. I will ignore all soliciting.</p>
         </div>
       </section>
-      <div class=" justify-center items-center flex pb-[100px] lg:pb-[90px] xl:pb[70px] ">
-        <h1 class="text-gray-600 tracking-wide text-center ">&copy; All rights reversed by Ujjawal yadav</h1>
+      <div class=" justify-center items-center flex pb-[80px] lg:pb-[90px] xl:pb[50px] ">
+        <p class="text-gray-600/50 text-[10px] md:text-[14px] tracking-wide text-center ">&copy; All rights reversed by
+          Ujjawal yadav</p>
       </div>
 
     </div>
@@ -401,6 +483,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
     integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- lenis cdn -->
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script> 
   <script src="script.js"></script>
 </body>
 
